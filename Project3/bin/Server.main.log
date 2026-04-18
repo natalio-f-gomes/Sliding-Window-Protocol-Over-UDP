@@ -1,0 +1,82 @@
+2026-04-18 15:12:19 INFO Log started for: Server.main
+2026-04-18 15:12:19 INFO [Server.main] Starting
+2026-04-18 15:12:19 INFO [Server.main] Skipping First Packet in Window: true
+2026-04-18 15:12:19 INFO [Server.main] Skipping All Packets in Window:  false
+2026-04-18 15:12:19 INFO [Server.UDP] Sstarting Server on Port: 2015
+2026-04-18 15:12:27 INFO [Server.UDP] Received   <----- REQ packet for file: data.txt
+2026-04-18 15:12:27 INFO [Server.UDP] Established connection with: /127.0.0.1, Port:61990
+2026-04-18 15:12:27 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2026-04-18 15:12:28 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2026-04-18 15:12:28 INFO [Server.PacketManager] Resending ERR from window slot: 0
+2026-04-18 15:12:28 INFO [Server.UDP] Sending   -----> ERR packet due to: "No such file or permission denied.
+2026-04-18 15:12:28 INFO [Server.UDP] Resstarting Server on Port: 2015
+2026-04-18 15:17:43 INFO Log started for: Server.main
+2026-04-18 15:17:43 INFO [Server.main] Starting
+2026-04-18 15:17:43 INFO [Server.main] Skipping First Packet in Window: true
+2026-04-18 15:17:43 INFO [Server.main] Skipping All Packets in Window:  false
+2026-04-18 15:17:43 INFO [Server.UDP] Sstarting Server on Port: 2015
+2026-04-18 15:18:32 INFO [Server.UDP] Received   <----- REQ packet for file: data.txt
+2026-04-18 15:18:32 INFO [Server.UDP] Established connection with: /127.0.0.1, Port:50145
+2026-04-18 15:18:32 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2026-04-18 15:18:33 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2026-04-18 15:18:33 INFO [Server.PacketManager] Resending ERR from window slot: 0
+2026-04-18 15:18:33 INFO [Server.UDP] Sending   -----> ERR packet due to: "No such file or permission denied.
+2026-04-18 15:18:33 INFO [Server.UDP] Resstarting Server on Port: 2015
+2026-04-18 15:19:48 INFO [Server.UDP] Received   <----- REQ packet for file: data.txt
+2026-04-18 15:19:48 INFO [Server.UDP] Established connection with: /127.0.0.1, Port:52889
+2026-04-18 15:19:48 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2026-04-18 15:19:49 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2026-04-18 15:19:49 INFO [Server.PacketManager] Resending ERR from window slot: 0
+2026-04-18 15:19:49 INFO [Server.UDP] Sending   -----> ERR packet due to: "No such file or permission denied.
+2026-04-18 15:19:49 INFO [Server.UDP] Resstarting Server on Port: 2015
+2026-04-18 15:20:57 INFO Log started for: Server.main
+2026-04-18 15:20:57 INFO [Server.main] Starting
+2026-04-18 15:20:57 INFO [Server.main] Skipping First Packet in Window: true
+2026-04-18 15:20:57 INFO [Server.main] Skipping All Packets in Window:  false
+2026-04-18 15:20:57 INFO [Server.UDP] Sstarting Server on Port: 2015
+2026-04-18 15:21:01 INFO [Server.UDP] Received   <----- REQ packet for file: data.txt
+2026-04-18 15:21:01 INFO [Server.UDP] Established connection with: /127.0.0.1, Port:51143
+2026-04-18 15:21:01 INFO [Server.Sender] Sending File: data.txt, Size: 77(bytes)
+2026-04-18 15:21:01 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2026-04-18 15:21:01 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2026-04-18 15:21:01 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2026-04-18 15:21:02 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2026-04-18 15:21:02 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2026-04-18 15:21:02 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2026-04-18 15:21:02 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2026-04-18 15:21:02 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2026-04-18 15:21:02 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2026-04-18 15:21:02 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2026-04-18 15:21:02 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2026-04-18 15:21:02 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2026-04-18 15:21:02 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2026-04-18 15:21:02 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2026-04-18 15:21:02 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2026-04-18 15:21:02 INFO [Server.UDP] Sending   -----> EOT packet 
+2026-04-18 15:21:02 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2026-04-18 15:21:02 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2026-04-18 15:21:02 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2026-04-18 15:21:03 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2026-04-18 15:21:03 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2026-04-18 15:21:03 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 13(bytes) of the file.
+2026-04-18 15:21:03 INFO [Server.PacketManager] Resending EOT from window slot: 2
+2026-04-18 15:21:03 INFO [Server.UDP] Sending   -----> EOT packet 
+2026-04-18 15:21:03 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2026-04-18 15:21:03 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2026-04-18 15:21:03 INFO [Server.Sender] File sent. 77(bytes)
+2026-04-18 15:21:03 INFO [Server.PacketManager] Packet Manager:
+2026-04-18 15:21:03 INFO [Server.PacketManager]     Expected Number of Sent Packets:        6
+2026-04-18 15:21:03 INFO [Server.PacketManager]     Number of packets Resent:               5
+2026-04-18 15:21:03 INFO [Server.PacketManager]     Breakdown:
+2026-04-18 15:21:03 INFO [Server.PacketManager]         Number of ACK Packets:              0
+2026-04-18 15:21:03 INFO [Server.PacketManager]         Number of REQ Packets:              0
+2026-04-18 15:21:03 INFO [Server.PacketManager]         Number of DAT Packets:              9
+2026-04-18 15:21:03 INFO [Server.PacketManager]         Number of ERR Packets:              0
+2026-04-18 15:21:03 INFO [Server.PacketManager]         Number of EOT Packets:              2
+2026-04-18 15:21:03 INFO [Server.PacketManager]     Total Number of Packets Sent:          11
+2026-04-18 15:21:03 INFO [Server.PacketManager] 
+2026-04-18 15:21:03 INFO [Server.PacketManager]     Number of ACKs received:                7
+2026-04-18 15:21:03 INFO [Server.PacketManager]     Number of unexpected ACKs received:     1
+2026-04-18 15:21:03 INFO [Server.PacketManager] 
+2026-04-18 15:21:03 INFO [Server.UDP]     Total Data:                           109
+2026-04-18 15:21:03 INFO [Server.UDP]     Total Data Including Packet Headers:  217

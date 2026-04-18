@@ -1,0 +1,6 @@
+2026-04-18 15:12:27 INFO Log started for: Client.Main
+2026-04-18 15:12:27 INFO [Client.Main] Receiver started
+2026-04-18 15:12:27 INFO [Client.Receiver] Sending   -----> REQ packet for file: data.txt
+2026-04-18 15:12:28 INFO [Client.Receiver] Receive timeout
+2026-04-18 15:12:28 INFO [Client.Receiver] Received   <----- ERR packet due to: "No such file or permission denied.
+2026-04-18 15:12:28 INFO [Client.Receiver] Error: "No such file or permission denied.

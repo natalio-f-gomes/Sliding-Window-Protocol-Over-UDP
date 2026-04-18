@@ -1,0 +1,41 @@
+2026-04-18 15:12:27 INFO Log started for: Client.Main
+2026-04-18 15:12:27 INFO [Client.Main] Receiver started
+2026-04-18 15:12:27 INFO [Client.Receiver] Sending   -----> REQ packet for file: data.txt
+2026-04-18 15:12:28 INFO [Client.Receiver] Receive timeout
+2026-04-18 15:12:28 INFO [Client.Receiver] Received   <----- ERR packet due to: "No such file or permission denied.
+2026-04-18 15:12:28 INFO [Client.Receiver] Error: "No such file or permission denied.
+2026-04-18 15:18:31 INFO Log started for: Client.Main
+2026-04-18 15:18:31 INFO [Client.Main] Receiver started
+2026-04-18 15:18:32 INFO [Client.Receiver] Sending   -----> REQ packet for file: data.txt
+2026-04-18 15:18:33 INFO [Client.Receiver] Receive timeout
+2026-04-18 15:18:33 INFO [Client.Receiver] Received   <----- ERR packet due to: "No such file or permission denied.
+2026-04-18 15:18:33 INFO [Client.Receiver] Error: "No such file or permission denied.
+2026-04-18 15:19:48 INFO Log started for: Client.Main
+2026-04-18 15:19:48 INFO [Client.Main] Receiver started
+2026-04-18 15:19:48 INFO [Client.Receiver] Sending   -----> REQ packet for file: data.txt
+2026-04-18 15:19:49 INFO [Client.Receiver] Receive timeout
+2026-04-18 15:19:49 INFO [Client.Receiver] Received   <----- ERR packet due to: "No such file or permission denied.
+2026-04-18 15:19:49 INFO [Client.Receiver] Error: "No such file or permission denied.
+2026-04-18 15:21:01 INFO Log started for: Client.Main
+2026-04-18 15:21:01 INFO [Client.Main] Receiver started
+2026-04-18 15:21:01 INFO [Client.Receiver] Sending   -----> REQ packet for file: data.txt
+2026-04-18 15:21:01 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2026-04-18 15:21:01 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2026-04-18 15:21:02 INFO [Client.Receiver] Receive timeout
+2026-04-18 15:21:02 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2026-04-18 15:21:02 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2026-04-18 15:21:02 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2026-04-18 15:21:02 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2026-04-18 15:21:02 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2026-04-18 15:21:02 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2026-04-18 15:21:02 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2026-04-18 15:21:02 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2026-04-18 15:21:02 INFO [Client.Receiver] Received   <----- EOT packet 
+2026-04-18 15:21:02 INFO [Client.Receiver] Received a packet, but not the one we're expecting.
+2026-04-18 15:21:02 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2026-04-18 15:21:03 INFO [Client.Receiver] Receive timeout
+2026-04-18 15:21:03 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 13(bytes) of the file.
+2026-04-18 15:21:03 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2026-04-18 15:21:03 INFO [Client.Receiver] Received   <----- EOT packet 
+2026-04-18 15:21:03 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2026-04-18 15:21:03 INFO [Client.Receiver] Received the file containing: 77(bytes) of data

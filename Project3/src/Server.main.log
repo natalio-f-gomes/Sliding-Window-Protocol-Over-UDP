@@ -1,0 +1,12 @@
+2026-04-18 15:12:19 INFO Log started for: Server.main
+2026-04-18 15:12:19 INFO [Server.main] Starting
+2026-04-18 15:12:19 INFO [Server.main] Skipping First Packet in Window: true
+2026-04-18 15:12:19 INFO [Server.main] Skipping All Packets in Window:  false
+2026-04-18 15:12:19 INFO [Server.UDP] Sstarting Server on Port: 2015
+2026-04-18 15:12:27 INFO [Server.UDP] Received   <----- REQ packet for file: data.txt
+2026-04-18 15:12:27 INFO [Server.UDP] Established connection with: /127.0.0.1, Port:61990
+2026-04-18 15:12:27 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2026-04-18 15:12:28 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2026-04-18 15:12:28 INFO [Server.PacketManager] Resending ERR from window slot: 0
+2026-04-18 15:12:28 INFO [Server.UDP] Sending   -----> ERR packet due to: "No such file or permission denied.
+2026-04-18 15:12:28 INFO [Server.UDP] Resstarting Server on Port: 2015
